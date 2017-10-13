@@ -94,7 +94,8 @@ Pod::Spec.new do |s|
   s.source_files  = "Classes", "RemotePod/Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "RemotePod/Classes/UIKit/UI_Categories.h", "RemotePod/Classes/**/*.h"
+  s.public_header_files = "RemotePod/Classes/**/*.h"
+  #  s.public_header_files = "RemotePod/Classes/UIKit/UI_Categories.h", "RemotePod/Classes/**/*.h"
   # 例子如下：
   # https://github.com/yongqianvip/iOS_Category.git
   # s.public_header_files = "iOS_Category/Classes/UIKit/UI_Categories.h"，"iOS_Category/Classes/Foundation/Foundation_Category.h"，"iOS_Category/Classes/**/*.h"
