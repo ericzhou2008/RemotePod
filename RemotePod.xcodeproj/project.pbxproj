@@ -15,7 +15,7 @@
 		255ECB511F909A050061D951 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 255ECB501F909A050061D951 /* main.m */; };
 		255ECB5B1F909A050061D951 /* RemotePodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 255ECB5A1F909A050061D951 /* RemotePodTests.m */; };
 		255ECB661F909A050061D951 /* RemotePodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 255ECB651F909A050061D951 /* RemotePodUITests.m */; };
-		255ECB751F909A100061D951 /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 255ECB741F909A100061D951 /* UIView+LayoutMethods.m */; };
+		255ECB821F90AA080061D951 /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 255ECB811F90AA080061D951 /* UIView+LayoutMethods.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,9 @@
 		255ECB611F909A050061D951 /* RemotePodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemotePodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		255ECB651F909A050061D951 /* RemotePodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemotePodUITests.m; sourceTree = "<group>"; };
 		255ECB671F909A050061D951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		255ECB731F909A100061D951 /* UIView+LayoutMethods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutMethods.h"; sourceTree = "<group>"; };
-		255ECB741F909A100061D951 /* UIView+LayoutMethods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutMethods.m"; sourceTree = "<group>"; };
+		255ECB801F90AA080061D951 /* UIView+LayoutMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutMethods.h"; sourceTree = "<group>"; };
+		255ECB811F90AA080061D951 /* UIView+LayoutMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutMethods.m"; sourceTree = "<group>"; };
+		255ECB831F90AAE30061D951 /* UI_Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UI_Categories.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +105,11 @@
 		255ECB401F909A050061D951 /* RemotePod */ = {
 			isa = PBXGroup;
 			children = (
+				255ECB761F90A7F10061D951 /* Classes */,
 				255ECB411F909A050061D951 /* AppDelegate.h */,
 				255ECB421F909A050061D951 /* AppDelegate.m */,
 				255ECB441F909A050061D951 /* ViewController.h */,
 				255ECB451F909A050061D951 /* ViewController.m */,
-				255ECB731F909A100061D951 /* UIView+LayoutMethods.h */,
-				255ECB741F909A100061D951 /* UIView+LayoutMethods.m */,
 				255ECB471F909A050061D951 /* Main.storyboard */,
 				255ECB4A1F909A050061D951 /* Assets.xcassets */,
 				255ECB4C1F909A050061D951 /* LaunchScreen.storyboard */,
@@ -135,6 +135,24 @@
 				255ECB671F909A050061D951 /* Info.plist */,
 			);
 			path = RemotePodUITests;
+			sourceTree = "<group>";
+		};
+		255ECB761F90A7F10061D951 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				255ECB7F1F90AA080061D951 /* UIKit */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		255ECB7F1F90AA080061D951 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				255ECB831F90AAE30061D951 /* UI_Categories.h */,
+				255ECB801F90AA080061D951 /* UIView+LayoutMethods.h */,
+				255ECB811F90AA080061D951 /* UIView+LayoutMethods.m */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +291,7 @@
 				255ECB461F909A050061D951 /* ViewController.m in Sources */,
 				255ECB511F909A050061D951 /* main.m in Sources */,
 				255ECB431F909A050061D951 /* AppDelegate.m in Sources */,
-				255ECB751F909A100061D951 /* UIView+LayoutMethods.m in Sources */,
+				255ECB821F90AA080061D951 /* UIView+LayoutMethods.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
