@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		255ECB431F909A050061D951 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 255ECB421F909A050061D951 /* AppDelegate.m */; };
+		255ECB461F909A050061D951 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255ECB451F909A050061D951 /* ViewController.m */; };
+		255ECB491F909A050061D951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255ECB471F909A050061D951 /* Main.storyboard */; };
+		255ECB4B1F909A050061D951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 255ECB4A1F909A050061D951 /* Assets.xcassets */; };
+		255ECB4E1F909A050061D951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255ECB4C1F909A050061D951 /* LaunchScreen.storyboard */; };
+		255ECB511F909A050061D951 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 255ECB501F909A050061D951 /* main.m */; };
+		255ECB5B1F909A050061D951 /* RemotePodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 255ECB5A1F909A050061D951 /* RemotePodTests.m */; };
+		255ECB661F909A050061D951 /* RemotePodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 255ECB651F909A050061D951 /* RemotePodUITests.m */; };
+		255ECB751F909A100061D951 /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 255ECB741F909A100061D951 /* UIView+LayoutMethods.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		255ECB571F909A050061D951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 255ECB361F909A050061D951 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 255ECB3D1F909A050061D951;
+			remoteInfo = RemotePod;
+		};
+		255ECB621F909A050061D951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 255ECB361F909A050061D951 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 255ECB3D1F909A050061D951;
+			remoteInfo = RemotePod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		255ECB3E1F909A050061D951 /* RemotePod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemotePod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		255ECB411F909A050061D951 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		255ECB421F909A050061D951 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		255ECB441F909A050061D951 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		255ECB451F909A050061D951 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		255ECB481F909A050061D951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		255ECB4A1F909A050061D951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		255ECB4D1F909A050061D951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		255ECB4F1F909A050061D951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		255ECB501F909A050061D951 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		255ECB561F909A050061D951 /* RemotePodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemotePodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		255ECB5A1F909A050061D951 /* RemotePodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemotePodTests.m; sourceTree = "<group>"; };
+		255ECB5C1F909A050061D951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		255ECB611F909A050061D951 /* RemotePodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemotePodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		255ECB651F909A050061D951 /* RemotePodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemotePodUITests.m; sourceTree = "<group>"; };
+		255ECB671F909A050061D951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		255ECB731F909A100061D951 /* UIView+LayoutMethods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutMethods.h"; sourceTree = "<group>"; };
+		255ECB741F909A100061D951 /* UIView+LayoutMethods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutMethods.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		255ECB3B1F909A050061D951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255ECB531F909A050061D951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255ECB5E1F909A050061D951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		255ECB351F909A050061D951 = {
+			isa = PBXGroup;
+			children = (
+				255ECB401F909A050061D951 /* RemotePod */,
+				255ECB591F909A050061D951 /* RemotePodTests */,
+				255ECB641F909A050061D951 /* RemotePodUITests */,
+				255ECB3F1F909A050061D951 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		255ECB3F1F909A050061D951 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				255ECB3E1F909A050061D951 /* RemotePod.app */,
+				255ECB561F909A050061D951 /* RemotePodTests.xctest */,
+				255ECB611F909A050061D951 /* RemotePodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		255ECB401F909A050061D951 /* RemotePod */ = {
+			isa = PBXGroup;
+			children = (
+				255ECB411F909A050061D951 /* AppDelegate.h */,
+				255ECB421F909A050061D951 /* AppDelegate.m */,
+				255ECB441F909A050061D951 /* ViewController.h */,
+				255ECB451F909A050061D951 /* ViewController.m */,
+				255ECB731F909A100061D951 /* UIView+LayoutMethods.h */,
+				255ECB741F909A100061D951 /* UIView+LayoutMethods.m */,
+				255ECB471F909A050061D951 /* Main.storyboard */,
+				255ECB4A1F909A050061D951 /* Assets.xcassets */,
+				255ECB4C1F909A050061D951 /* LaunchScreen.storyboard */,
+				255ECB4F1F909A050061D951 /* Info.plist */,
+				255ECB501F909A050061D951 /* main.m */,
+			);
+			path = RemotePod;
+			sourceTree = "<group>";
+		};
+		255ECB591F909A050061D951 /* RemotePodTests */ = {
+			isa = PBXGroup;
+			children = (
+				255ECB5A1F909A050061D951 /* RemotePodTests.m */,
+				255ECB5C1F909A050061D951 /* Info.plist */,
+			);
+			path = RemotePodTests;
+			sourceTree = "<group>";
+		};
+		255ECB641F909A050061D951 /* RemotePodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				255ECB651F909A050061D951 /* RemotePodUITests.m */,
+				255ECB671F909A050061D951 /* Info.plist */,
+			);
+			path = RemotePodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		255ECB3D1F909A050061D951 /* RemotePod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255ECB6A1F909A050061D951 /* Build configuration list for PBXNativeTarget "RemotePod" */;
+			buildPhases = (
+				255ECB3A1F909A050061D951 /* Sources */,
+				255ECB3B1F909A050061D951 /* Frameworks */,
+				255ECB3C1F909A050061D951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemotePod;
+			productName = RemotePod;
+			productReference = 255ECB3E1F909A050061D951 /* RemotePod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		255ECB551F909A050061D951 /* RemotePodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255ECB6D1F909A050061D951 /* Build configuration list for PBXNativeTarget "RemotePodTests" */;
+			buildPhases = (
+				255ECB521F909A050061D951 /* Sources */,
+				255ECB531F909A050061D951 /* Frameworks */,
+				255ECB541F909A050061D951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				255ECB581F909A050061D951 /* PBXTargetDependency */,
+			);
+			name = RemotePodTests;
+			productName = RemotePodTests;
+			productReference = 255ECB561F909A050061D951 /* RemotePodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		255ECB601F909A050061D951 /* RemotePodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255ECB701F909A050061D951 /* Build configuration list for PBXNativeTarget "RemotePodUITests" */;
+			buildPhases = (
+				255ECB5D1F909A050061D951 /* Sources */,
+				255ECB5E1F909A050061D951 /* Frameworks */,
+				255ECB5F1F909A050061D951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				255ECB631F909A050061D951 /* PBXTargetDependency */,
+			);
+			name = RemotePodUITests;
+			productName = RemotePodUITests;
+			productReference = 255ECB611F909A050061D951 /* RemotePodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		255ECB361F909A050061D951 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = jryzt;
+				TargetAttributes = {
+					255ECB3D1F909A050061D951 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					255ECB551F909A050061D951 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 255ECB3D1F909A050061D951;
+					};
+					255ECB601F909A050061D951 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 255ECB3D1F909A050061D951;
+					};
+				};
+			};
+			buildConfigurationList = 255ECB391F909A050061D951 /* Build configuration list for PBXProject "RemotePod" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 255ECB351F909A050061D951;
+			productRefGroup = 255ECB3F1F909A050061D951 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				255ECB3D1F909A050061D951 /* RemotePod */,
+				255ECB551F909A050061D951 /* RemotePodTests */,
+				255ECB601F909A050061D951 /* RemotePodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		255ECB3C1F909A050061D951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255ECB4E1F909A050061D951 /* LaunchScreen.storyboard in Resources */,
+				255ECB4B1F909A050061D951 /* Assets.xcassets in Resources */,
+				255ECB491F909A050061D951 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255ECB541F909A050061D951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255ECB5F1F909A050061D951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		255ECB3A1F909A050061D951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255ECB461F909A050061D951 /* ViewController.m in Sources */,
+				255ECB511F909A050061D951 /* main.m in Sources */,
+				255ECB431F909A050061D951 /* AppDelegate.m in Sources */,
+				255ECB751F909A100061D951 /* UIView+LayoutMethods.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255ECB521F909A050061D951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255ECB5B1F909A050061D951 /* RemotePodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255ECB5D1F909A050061D951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255ECB661F909A050061D951 /* RemotePodUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		255ECB581F909A050061D951 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 255ECB3D1F909A050061D951 /* RemotePod */;
+			targetProxy = 255ECB571F909A050061D951 /* PBXContainerItemProxy */;
+		};
+		255ECB631F909A050061D951 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 255ECB3D1F909A050061D951 /* RemotePod */;
+			targetProxy = 255ECB621F909A050061D951 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		255ECB471F909A050061D951 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				255ECB481F909A050061D951 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		255ECB4C1F909A050061D951 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				255ECB4D1F909A050061D951 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		255ECB681F909A050061D951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		255ECB691F909A050061D951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		255ECB6B1F909A050061D951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RemotePod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jryzt.RemotePod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		255ECB6C1F909A050061D951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RemotePod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jryzt.RemotePod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		255ECB6E1F909A050061D951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RemotePodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jryzt.RemotePodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemotePod.app/RemotePod";
+			};
+			name = Debug;
+		};
+		255ECB6F1F909A050061D951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RemotePodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jryzt.RemotePodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemotePod.app/RemotePod";
+			};
+			name = Release;
+		};
+		255ECB711F909A050061D951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RemotePodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jryzt.RemotePodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RemotePod;
+			};
+			name = Debug;
+		};
+		255ECB721F909A050061D951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RemotePodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jryzt.RemotePodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RemotePod;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		255ECB391F909A050061D951 /* Build configuration list for PBXProject "RemotePod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255ECB681F909A050061D951 /* Debug */,
+				255ECB691F909A050061D951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255ECB6A1F909A050061D951 /* Build configuration list for PBXNativeTarget "RemotePod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255ECB6B1F909A050061D951 /* Debug */,
+				255ECB6C1F909A050061D951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255ECB6D1F909A050061D951 /* Build configuration list for PBXNativeTarget "RemotePodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255ECB6E1F909A050061D951 /* Debug */,
+				255ECB6F1F909A050061D951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255ECB701F909A050061D951 /* Build configuration list for PBXNativeTarget "RemotePodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255ECB711F909A050061D951 /* Debug */,
+				255ECB721F909A050061D951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 255ECB361F909A050061D951 /* Project object */;
+}
