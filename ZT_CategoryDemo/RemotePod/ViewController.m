@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "UI_Categories.h"
+//#import "uiview+"
 
 @interface ViewController ()
 
@@ -16,6 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSLog(@"ct_x=%f", self.view.ct_x);
     // Do any additional setup after loading the view, typically from a nib.
 }
 
