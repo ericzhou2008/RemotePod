@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
     
     s.source       = { :git => "https://github.com/ericzhou2008/ZT_Category.git", :tag => "0.0.1" }
     
-    s.source_files  = "Classes", "ZT_Category/Classes/**/*.{h,m}"
+    s.source_files  = "Classes", "ZT_Category/Classes/UIKit/*.{h,m}"
     s.exclude_files = "Classes/Exclude"
     
     s.public_header_files = "ZT_Category/Classes/UIKit/UI_Categories.h", "ZT_Category/Classes/**/*.h"
