@@ -10,16 +10,13 @@ Pod::Spec.new do |s|
     
     s.name         = "ZT_Category"
     s.version      = "0.0.1"
-    s.summary      = "all kinds of categories for iOS develop"
-    
+    s.summary      = "all kinds of categories for iOS develop"    
     s.description  = <<-DESC
     this project provide all kinds of categories for iOS developer
     DESC
     
     s.homepage     = "https://github.com/ericzhou2008/ZT_Category"
-    
-    
-    # s.license      = "MIT"
+        
     s.license      = { :type => "MIT", :file => "LICENSE" }
     
     s.author       = { "ericzhou2008" => "ericzhou2008@126.com" }
@@ -27,11 +24,12 @@ Pod::Spec.new do |s|
     s.platform     = :ios
     
     s.source       = { :git => "https://github.com/ericzhou2008/ZT_Category.git", :tag => "0.0.1" }
-    
-    s.source_files  = "Classes", "ZT_Category/Classes/UIKit/*.{h,m}"
-    s.exclude_files = "Classes/Exclude"
-    
-    s.public_header_files = "ZT_Category/Classes/UIKit/UI_Categories.h", "ZT_Category/Classes/**/*.h"
+    s.source_files = "ZT_Category/Classes/**/*.{h,m}"
+    s.frameworks   = "UIKit"
+    # s.resources    = "Source/Languages/**"    
+    # s.source_files = "Classes", "ZT_Category/Classes/UIKit/*.{h,m}"
+    # s.exclude_files = "Classes/Exclude"
+    # s.public_header_files = "ZT_Category/Classes/UIKit/UI_Categories.h", "ZT_Category/Classes/**/*.h"
     
     # 例子如下：
     # https://github.com/yongqianvip/iOS_Category.git
