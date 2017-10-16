@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
     s.platform     = :ios
     
     s.source       = { :git => "https://github.com/ericzhou2008/ZY_Category.git", :tag => "0.0.1" }
-    s.source_files = "ZY_Category/ZYUIKit/*.{h,m}", "ZY_Category/ZYRequest/*.{h,m}"
+    # s.source_files = "ZY_Category/ZYUIKit/*.{h,m}", "ZY_Category/ZYRequest/*.{h,m}"
     s.frameworks   = "AddressBook"
     # s.resources    = "Source/Languages/**"    
     # s.source_files = "Classes", "ZY_Category/Classes/UIKit/*.{h,m}"
