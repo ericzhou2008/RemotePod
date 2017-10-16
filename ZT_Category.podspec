@@ -40,13 +40,13 @@ Pod::Spec.new do |s|
     # end
 
     s.subspec 'ZYUIKit' do |kit|
-        kit.source_files = 'ZYUIKit/**/*.{h,m}'
+        kit.source_files = 'ZT_Category/ZYUIKit/**/*.{h,m}'
       # kit.dependency 'ZT_Category/ZYUIKit'
     end
 
     s.subspec 'ZYRequest' do |req|
       # req.dependency 'ZT_Category/ZYRequest'
-      req.source_files = 'ZYRequest/**/*.{h,m}'
+      req.source_files = 'ZT_Category/ZYRequest/**/*.{h,m}'
       # req.dependency 'AFNetworking', '~> 3.1.0'
     end
 

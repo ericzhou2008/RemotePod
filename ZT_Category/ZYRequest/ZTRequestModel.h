@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <AFNetworking/AFNetworking.h>
+//#import <AFNetworking/AFNetworking.h>
 //#import "TCMacroProtocol.h"
 //#import "TCRespBaseModel.h"
 
@@ -41,100 +41,100 @@ typedef NS_ENUM(NSInteger, ZTReachabilityWWANStatus) {
 @interface ZTRequestModel : NSObject
 
 
-- (AFHTTPSessionManager *)manager;
-
-/// 请求URLString的MD5
-- (NSString *)requestMD5Url;
-
-/// 请求URLString
-//- (NSString *)requestUrl;
-
-/// 协议PHP服务 Common BaseUrl
-- (NSString *)protocolCommonBaseUrl;
-
-/// 协议PHP服务BaseUrl
-- (NSString *)protocolBaseUrl;
-
-/// 协议PHP服务BaseUrl
-+ (NSString *)getProtocolBaseUrl;
-
-/// 设置HTTP请求头
-- (void)setHTTPReqHeaderParas:(NSDictionary *)paras;
-
-/// 取消http请求
-- (void)cancelRequest;
-
-#pragma mark - HTTP 请求方法
-/**
- 通用接口请求方法
- 
- @param baseURL 请求URL
- @param HTTPMethod 请求方法GET/POST
- @param parameters 请求参数
- @param extendBody 文件上传自动以body @{@"filename": @[@"image1",…,@"image4"], @"postFile":@[image1,…,image4], @"fileType":@"image/jpg"}
- @param downloadProgress 加载进度
- @param success 成功回调（queryURLString=完整请求URL, responseObject=NSDictionary）
- @param failure 失败回调（queryURLString=完整请求URL, error=错误描述去error.localizedDescription即可）
- */
-- (void)queryWithBaseURL:(NSString *)baseURL
-              HTTPMethod:(NSString *)HTTPMethod
-              parameters:(id)parameters
-              extendBody:(id)extendBody
-                progress:(void (^)(NSProgress *downloadProgress))downloadProgress
-                 success:(void (^)(NSString *queryURL, id responseObject))success
-                 failure:(void (^)(NSString *queryURL, NSError *error))failure;
-
-
-/**
- 带进度 NSProgress HTTP请求基础方法-只支持GET、POST，且POST不支持文件、图片上传
- 
- @param baseURL 请求URL
- @param HTTPMethod 请求方法GET/POST
- @param parameters 请求参数
- @param downloadProgress 加载进度
- @param success 成功回调（queryURLString=完整请求URL, responseObject=NSDictionary）
- @param failure 失败回调（queryURLString=完整请求URL, error=错误描述去error.localizedDescription即可）
- */
-- (void)queryWithBaseURL:(NSString *)baseURL
-              HTTPMethod:(NSString *)HTTPMethod
-              parameters:(id)parameters
-                progress:(void (^)(NSProgress *downloadProgress))downloadProgress
-                 success:(void (^)(NSString *queryURL, id responseObject))success
-                 failure:(void (^)(NSString *queryURL, NSError *error))failure;
-
-
-/**
- 带进度 aProgress HTTP请求基础方法-只支持GET、POST，且POST不支持文件、图片上传
- 
- @param baseURL 请求URL
- @param HTTPMethod 请求方法GET/POST
- @param parameters 请求参数
- @param progressCallback 加载进度回调
- @param success 成功回调（queryURLString=完整请求URL, responseObject=NSDictionary）
- @param failure 失败回调（queryURLString=完整请求URL, error=错误描述去error.localizedDescription即可）
- */
-- (void)queryWithBaseURL:(NSString *)baseURL
-              HTTPMethod:(NSString *)HTTPMethod
-              parameters:(id)parameters
-        progressCallback:(void (^)(float aProgress))progressCallback
-                 success:(void (^)(NSString *queryURL, id responseObject))success
-                 failure:(void (^)(NSString *queryURL, NSError *error))failure;
-
-
-/**
- HTTP请求基础方法-只支持GET、POST，且POST不支持文件、图片上传
- 
- @param baseURL 请求URL
- @param HTTPMethod 请求方法GET/POST
- @param parameters 请求参数
- @param success 成功回调（queryURLString=完整请求URL, responseObject=NSDictionary）
- @param failure 失败回调（queryURLString=完整请求URL, error=错误描述去error.localizedDescription即可）
- */
-- (void)queryWithBaseURL:(NSString *)baseURL
-              HTTPMethod:(NSString *)HTTPMethod
-              parameters:(id)parameters
-                 success:(void (^)(NSString * queryURL, id responseObject))success
-                 failure:(void (^)(NSString * queryURL, NSError *error))failure;
+//- (AFHTTPSessionManager *)manager;
+//
+///// 请求URLString的MD5
+//- (NSString *)requestMD5Url;
+//
+///// 请求URLString
+////- (NSString *)requestUrl;
+//
+///// 协议PHP服务 Common BaseUrl
+//- (NSString *)protocolCommonBaseUrl;
+//
+///// 协议PHP服务BaseUrl
+//- (NSString *)protocolBaseUrl;
+//
+///// 协议PHP服务BaseUrl
+//+ (NSString *)getProtocolBaseUrl;
+//
+///// 设置HTTP请求头
+//- (void)setHTTPReqHeaderParas:(NSDictionary *)paras;
+//
+///// 取消http请求
+//- (void)cancelRequest;
+//
+//#pragma mark - HTTP 请求方法
+///**
+// 通用接口请求方法
+//
+// @param baseURL 请求URL
+// @param HTTPMethod 请求方法GET/POST
+// @param parameters 请求参数
+// @param extendBody 文件上传自动以body @{@"filename": @[@"image1",…,@"image4"], @"postFile":@[image1,…,image4], @"fileType":@"image/jpg"}
+// @param downloadProgress 加载进度
+// @param success 成功回调（queryURLString=完整请求URL, responseObject=NSDictionary）
+// @param failure 失败回调（queryURLString=完整请求URL, error=错误描述去error.localizedDescription即可）
+// */
+//- (void)queryWithBaseURL:(NSString *)baseURL
+//              HTTPMethod:(NSString *)HTTPMethod
+//              parameters:(id)parameters
+//              extendBody:(id)extendBody
+//                progress:(void (^)(NSProgress *downloadProgress))downloadProgress
+//                 success:(void (^)(NSString *queryURL, id responseObject))success
+//                 failure:(void (^)(NSString *queryURL, NSError *error))failure;
+//
+//
+///**
+// 带进度 NSProgress HTTP请求基础方法-只支持GET、POST，且POST不支持文件、图片上传
+//
+// @param baseURL 请求URL
+// @param HTTPMethod 请求方法GET/POST
+// @param parameters 请求参数
+// @param downloadProgress 加载进度
+// @param success 成功回调（queryURLString=完整请求URL, responseObject=NSDictionary）
+// @param failure 失败回调（queryURLString=完整请求URL, error=错误描述去error.localizedDescription即可）
+// */
+//- (void)queryWithBaseURL:(NSString *)baseURL
+//              HTTPMethod:(NSString *)HTTPMethod
+//              parameters:(id)parameters
+//                progress:(void (^)(NSProgress *downloadProgress))downloadProgress
+//                 success:(void (^)(NSString *queryURL, id responseObject))success
+//                 failure:(void (^)(NSString *queryURL, NSError *error))failure;
+//
+//
+///**
+// 带进度 aProgress HTTP请求基础方法-只支持GET、POST，且POST不支持文件、图片上传
+//
+// @param baseURL 请求URL
+// @param HTTPMethod 请求方法GET/POST
+// @param parameters 请求参数
+// @param progressCallback 加载进度回调
+// @param success 成功回调（queryURLString=完整请求URL, responseObject=NSDictionary）
+// @param failure 失败回调（queryURLString=完整请求URL, error=错误描述去error.localizedDescription即可）
+// */
+//- (void)queryWithBaseURL:(NSString *)baseURL
+//              HTTPMethod:(NSString *)HTTPMethod
+//              parameters:(id)parameters
+//        progressCallback:(void (^)(float aProgress))progressCallback
+//                 success:(void (^)(NSString *queryURL, id responseObject))success
+//                 failure:(void (^)(NSString *queryURL, NSError *error))failure;
+//
+//
+///**
+// HTTP请求基础方法-只支持GET、POST，且POST不支持文件、图片上传
+//
+// @param baseURL 请求URL
+// @param HTTPMethod 请求方法GET/POST
+// @param parameters 请求参数
+// @param success 成功回调（queryURLString=完整请求URL, responseObject=NSDictionary）
+// @param failure 失败回调（queryURLString=完整请求URL, error=错误描述去error.localizedDescription即可）
+// */
+//- (void)queryWithBaseURL:(NSString *)baseURL
+//              HTTPMethod:(NSString *)HTTPMethod
+//              parameters:(id)parameters
+//                 success:(void (^)(NSString * queryURL, id responseObject))success
+//                 failure:(void (^)(NSString * queryURL, NSError *error))failure;
 @end
 
 
