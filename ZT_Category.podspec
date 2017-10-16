@@ -35,8 +35,19 @@ Pod::Spec.new do |s|
     # https://github.com/yongqianvip/iOS_Category.git
     # s.public_header_files = "iOS_Category/Classes/UIKit/UI_Categories.h"，"iOS_Category/Classes/Foundation/Foundation_Category.h"，"iOS_Category/Classes/**/*.h"
     
-    s.subspec 'UIKit' do |kit|
-        kit.dependency 'ZT_Category/UIKit'
+    # s.subspec 'UIKit' do |kit|
+    #     kit.dependency 'UIKit'
+    # end
+
+    s.subspec 'ZYUIKit' do |kit|
+        kit.source_files = 'ZYUIKit/**/*.{h,m}'
+      # kit.dependency 'ZT_Category/ZYUIKit'
+    end
+
+    s.subspec 'ZYRequest' do |req|
+      # req.dependency 'ZT_Category/ZYRequest'
+      req.source_files = 'ZYRequest/**/*.{h,m}'
+      req.dependency 'AFNetworking', '~> 3.1.0'
     end
 
     s.requires_arc = true
