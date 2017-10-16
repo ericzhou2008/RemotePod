@@ -1,13 +1,13 @@
 //
-//  TCMacroProtocol.h
+//  ZYMacroProtocol.h
 //  TouCool
 //
 //  Created by 周勇 on 2017/7/13.
 //  Copyright © 2017年 TouCool. All rights reserved.
 //
 
-#ifndef TCMacroProtocol_h
-#define TCMacroProtocol_h
+#ifndef ZYMacroProtocol_h
+#define ZYMacroProtocol_h
 #import <Foundation/Foundation.h>
 
 static NSString *const TCPlatform                                    = @"ios";///< 平台
@@ -30,7 +30,7 @@ static NSString *const TCPostFileTypeDocumentKey                     = @"documen
 static NSUInteger const TCCODE_SUCCESS                               = 0;///< 0：正常
 static NSString *const TCMethodSchool_list                           = @"school/list";///< GET-common/school/list 获取学校列表
 
-#endif /* TCMacroProtocol_h */
+#endif /* ZYMacroProtocol_h */
 
 
 

@@ -1,12 +1,12 @@
 //
-//  ZTRequestModel.m
-//  ZTRequest
+//  ZYRequestModel.m
+//  ZYRequest
 //
 //  Created by mygame on 15/9/28.
 //  Copyright © 2015年 youwoxing. All rights reserved.
 //
 
-#import "ZTRequestModel.h"
+#import "ZYRequestModel.h"
 //#import "TCManager+AppInfo.h"
 //#import <BFKit/BFCryptor.h>
 //#import "AppDelegate.h"
@@ -35,7 +35,7 @@ static NSString *const kHTTPHeaderToken     = @"token";///< 登入 token
 @end
 
 
-@implementation ZTRequestModel
+@implementation ZYRequestModel
 //{
 //    AFHTTPSessionManager *_manager;
 //}
@@ -147,7 +147,7 @@ static NSString *const kHTTPHeaderToken     = @"token";///< 登入 token
 //                       TCSafeCallblock2(success, [task requestURLString], responseObject);
 //
 //                       // 权限、服务器检测
-//                       [ZTRequestModel checkResponseObject:responseObject];
+//                       [ZYRequestModel checkResponseObject:responseObject];
 //                   } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
 //                       TCSafeCallblock2(failure, [task requestURLString], error);
 //                   }];
@@ -172,7 +172,7 @@ static NSString *const kHTTPHeaderToken     = @"token";///< 登入 token
 //                TCSafeCallblock2(success, [task requestURLString], responseObject);
 //
 //                // 权限、服务器检测
-//                [ZTRequestModel checkResponseObject:responseObject];
+//                [ZYRequestModel checkResponseObject:responseObject];
 //            } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
 //                TCSafeCallblock2(failure, [task requestURLString], error);
 //            }];
@@ -185,7 +185,7 @@ static NSString *const kHTTPHeaderToken     = @"token";///< 登入 token
 //                TCSafeCallblock2(success, [task requestURLString], responseObject);
 //
 //                // 权限、服务器检测
-//                [ZTRequestModel checkResponseObject:responseObject];
+//                [ZYRequestModel checkResponseObject:responseObject];
 //            } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
 //                TCSafeCallblock2(failure, [task requestURLString], error);
 //            }];

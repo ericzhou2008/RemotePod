@@ -1,6 +1,6 @@
 //
-//  ZTRequestModel.h
-//  ZTRequest
+//  ZYRequestModel.h
+//  ZYRequest
 //
 //  Created by mygame on 15/9/28.
 //  Copyright © 2015年 youwoxing. All rights reserved.
@@ -22,7 +22,7 @@ typedef NS_ENUM(NSInteger, ZTReachabilityWWANStatus) {
     ZTReachabilityWWANStatus4G   = 4,///< Reachable via 4G (eHRPD/LTE)       100Mbps
 };
 
-@protocol ZTRequestModelProtocol
+@protocol ZYRequestModelProtocol
 @required
 
 @property (strong, nonatomic) NSString *hostUrl; ///< host+port
@@ -38,7 +38,7 @@ typedef NS_ENUM(NSInteger, ZTReachabilityWWANStatus) {
 @end
 
 /// 协议请求model
-@interface ZTRequestModel : NSObject
+@interface ZYRequestModel : NSObject
 
 
 //- (AFHTTPSessionManager *)manager;
