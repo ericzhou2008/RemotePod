@@ -24,8 +24,8 @@ Pod::Spec.new do |s|
     s.platform     = :ios
     
     s.source       = { :git => "https://github.com/ericzhou2008/ZT_Category.git", :tag => "0.0.1" }
-    s.source_files = "ZT_Category/Classes/**/*.{h,m}"
-    # s.frameworks   = "UIKit"
+    s.source_files = "ZT_Category/**/*.{h,m}"
+    s.frameworks   = "UIKit"
     # s.resources    = "Source/Languages/**"    
     # s.source_files = "Classes", "ZT_Category/Classes/UIKit/*.{h,m}"
     # s.exclude_files = "Classes/Exclude"
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
     # s.public_header_files = "iOS_Category/Classes/UIKit/UI_Categories.h"，"iOS_Category/Classes/Foundation/Foundation_Category.h"，"iOS_Category/Classes/**/*.h"
     
     s.subspec 'UIKit' do |kit|
-        kit.dependency 'ZT_Category/Classes/UIKit'
+        kit.dependency 'ZT_Category/UIKit'
     end
 
     s.requires_arc = true
