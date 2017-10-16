@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25A543831F94C06200AFAE98 /* ZTRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A5437E1F94C06200AFAE98 /* ZTRequestModel.m */; };
-		25A543841F94C06200AFAE98 /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A543821F94C06200AFAE98 /* UIView+LayoutMethods.m */; };
 		25D612B81F935EB2009A2D11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D612AE1F935EB1009A2D11 /* AppDelegate.m */; };
 		25D612B91F935EB2009A2D11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25D612AF1F935EB1009A2D11 /* Assets.xcassets */; };
 		25D612BA1F935EB2009A2D11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D612B01F935EB1009A2D11 /* LaunchScreen.storyboard */; };
@@ -16,16 +14,11 @@
 		25D612BC1F935EB2009A2D11 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25D612B41F935EB1009A2D11 /* Info.plist */; };
 		25D612BD1F935EB2009A2D11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D612B51F935EB1009A2D11 /* main.m */; };
 		25D612BE1F935EB2009A2D11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D612B71F935EB1009A2D11 /* ViewController.m */; };
+		261F20A9623B3EECAD367FE1 /* libPods-ZT_CategoryDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE44DE192676AEC4D2E31FD /* libPods-ZT_CategoryDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		255ECB3E1F909A050061D951 /* ZT_CategoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZT_CategoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		25A5437C1F94C06200AFAE98 /* TCMacroProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCMacroProtocol.h; sourceTree = "<group>"; };
-		25A5437D1F94C06200AFAE98 /* ZTRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTRequestModel.h; sourceTree = "<group>"; };
-		25A5437E1F94C06200AFAE98 /* ZTRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTRequestModel.m; sourceTree = "<group>"; };
-		25A543801F94C06200AFAE98 /* UI_Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UI_Categories.h; sourceTree = "<group>"; };
-		25A543811F94C06200AFAE98 /* UIView+LayoutMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutMethods.h"; sourceTree = "<group>"; };
-		25A543821F94C06200AFAE98 /* UIView+LayoutMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutMethods.m"; sourceTree = "<group>"; };
+		255ECB3E1F909A050061D951 /* ZY_CategoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZY_CategoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25D612AD1F935EB1009A2D11 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25D612AE1F935EB1009A2D11 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		25D612AF1F935EB1009A2D11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -35,6 +28,9 @@
 		25D612B51F935EB1009A2D11 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		25D612B61F935EB1009A2D11 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		25D612B71F935EB1009A2D11 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		36B97D1607E645B090BC4D29 /* Pods-ZT_CategoryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZT_CategoryDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZT_CategoryDemo/Pods-ZT_CategoryDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BEE44DE192676AEC4D2E31FD /* libPods-ZT_CategoryDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZT_CategoryDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E41C62FD9DB7B596E7FA8957 /* Pods-ZT_CategoryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZT_CategoryDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZT_CategoryDemo/Pods-ZT_CategoryDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				261F20A9623B3EECAD367FE1 /* libPods-ZT_CategoryDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,51 +50,22 @@
 			children = (
 				25D612AC1F935EB1009A2D11 /* ZT_CategoryDemo */,
 				255ECB3F1F909A050061D951 /* Products */,
+				EB1D5EAA7B930932C21A2425 /* Pods */,
+				8D7F81DA1EBE29C4653B2B4E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		255ECB3F1F909A050061D951 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				255ECB3E1F909A050061D951 /* ZT_CategoryDemo.app */,
+				255ECB3E1F909A050061D951 /* ZY_CategoryDemo.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		25A5437A1F94C06200AFAE98 /* ZT_Category */ = {
-			isa = PBXGroup;
-			children = (
-				25A5437B1F94C06200AFAE98 /* ZYRequest */,
-				25A5437F1F94C06200AFAE98 /* ZYUIKit */,
-			);
-			name = ZT_Category;
-			path = ../../ZT_Category;
-			sourceTree = "<group>";
-		};
-		25A5437B1F94C06200AFAE98 /* ZYRequest */ = {
-			isa = PBXGroup;
-			children = (
-				25A5437C1F94C06200AFAE98 /* TCMacroProtocol.h */,
-				25A5437D1F94C06200AFAE98 /* ZTRequestModel.h */,
-				25A5437E1F94C06200AFAE98 /* ZTRequestModel.m */,
-			);
-			path = ZYRequest;
-			sourceTree = "<group>";
-		};
-		25A5437F1F94C06200AFAE98 /* ZYUIKit */ = {
-			isa = PBXGroup;
-			children = (
-				25A543801F94C06200AFAE98 /* UI_Categories.h */,
-				25A543811F94C06200AFAE98 /* UIView+LayoutMethods.h */,
-				25A543821F94C06200AFAE98 /* UIView+LayoutMethods.m */,
-			);
-			path = ZYUIKit;
 			sourceTree = "<group>";
 		};
 		25D612AC1F935EB1009A2D11 /* ZT_CategoryDemo */ = {
 			isa = PBXGroup;
 			children = (
-				25A5437A1F94C06200AFAE98 /* ZT_Category */,
 				25D612AD1F935EB1009A2D11 /* AppDelegate.h */,
 				25D612AE1F935EB1009A2D11 /* AppDelegate.m */,
 				25D612AF1F935EB1009A2D11 /* Assets.xcassets */,
@@ -111,24 +79,44 @@
 			path = ZT_CategoryDemo;
 			sourceTree = "<group>";
 		};
+		8D7F81DA1EBE29C4653B2B4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEE44DE192676AEC4D2E31FD /* libPods-ZT_CategoryDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB1D5EAA7B930932C21A2425 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E41C62FD9DB7B596E7FA8957 /* Pods-ZT_CategoryDemo.debug.xcconfig */,
+				36B97D1607E645B090BC4D29 /* Pods-ZT_CategoryDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		255ECB3D1F909A050061D951 /* ZT_CategoryDemo */ = {
+		255ECB3D1F909A050061D951 /* ZY_CategoryDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 255ECB6A1F909A050061D951 /* Build configuration list for PBXNativeTarget "ZT_CategoryDemo" */;
+			buildConfigurationList = 255ECB6A1F909A050061D951 /* Build configuration list for PBXNativeTarget "ZY_CategoryDemo" */;
 			buildPhases = (
+				D6B29FAEDE844818F5DACE34 /* [CP] Check Pods Manifest.lock */,
 				255ECB3A1F909A050061D951 /* Sources */,
 				255ECB3B1F909A050061D951 /* Frameworks */,
 				255ECB3C1F909A050061D951 /* Resources */,
+				21CEBB76FB7C974CF059FED6 /* [CP] Embed Pods Frameworks */,
+				3BBFDAAD0290EBCEE801A3DC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ZT_CategoryDemo;
+			name = ZY_CategoryDemo;
 			productName = RemotePod;
-			productReference = 255ECB3E1F909A050061D951 /* ZT_CategoryDemo.app */;
+			productReference = 255ECB3E1F909A050061D951 /* ZY_CategoryDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -146,7 +134,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 255ECB391F909A050061D951 /* Build configuration list for PBXProject "ZT_CategoryDemo" */;
+			buildConfigurationList = 255ECB391F909A050061D951 /* Build configuration list for PBXProject "ZY_CategoryDemo" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -159,7 +147,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				255ECB3D1F909A050061D951 /* ZT_CategoryDemo */,
+				255ECB3D1F909A050061D951 /* ZY_CategoryDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -178,16 +166,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21CEBB76FB7C974CF059FED6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZT_CategoryDemo/Pods-ZT_CategoryDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BBFDAAD0290EBCEE801A3DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZT_CategoryDemo/Pods-ZT_CategoryDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6B29FAEDE844818F5DACE34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		255ECB3A1F909A050061D951 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				25D612BE1F935EB2009A2D11 /* ViewController.m in Sources */,
-				25A543841F94C06200AFAE98 /* UIView+LayoutMethods.m in Sources */,
 				25D612BD1F935EB2009A2D11 /* main.m in Sources */,
 				25D612B81F935EB2009A2D11 /* AppDelegate.m in Sources */,
-				25A543831F94C06200AFAE98 /* ZTRequestModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +353,7 @@
 		};
 		255ECB6B1F909A050061D951 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E41C62FD9DB7B596E7FA8957 /* Pods-ZT_CategoryDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -332,6 +367,7 @@
 		};
 		255ECB6C1F909A050061D951 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36B97D1607E645B090BC4D29 /* Pods-ZT_CategoryDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -346,7 +382,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		255ECB391F909A050061D951 /* Build configuration list for PBXProject "ZT_CategoryDemo" */ = {
+		255ECB391F909A050061D951 /* Build configuration list for PBXProject "ZY_CategoryDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				255ECB681F909A050061D951 /* Debug */,
@@ -355,7 +391,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		255ECB6A1F909A050061D951 /* Build configuration list for PBXNativeTarget "ZT_CategoryDemo" */ = {
+		255ECB6A1F909A050061D951 /* Build configuration list for PBXNativeTarget "ZY_CategoryDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				255ECB6B1F909A050061D951 /* Debug */,

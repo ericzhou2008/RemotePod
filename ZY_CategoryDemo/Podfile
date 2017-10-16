@@ -1,0 +1,3 @@
+target 'ZY_CategoryDemo' do
+	pod 'ZY_Category', '~> 0.0.1'
+end
