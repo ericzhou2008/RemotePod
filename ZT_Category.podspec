@@ -47,7 +47,7 @@ Pod::Spec.new do |s|
     s.subspec 'ZYRequest' do |req|
       # req.dependency 'ZT_Category/ZYRequest'
       req.source_files = 'ZYRequest/**/*.{h,m}'
-      req.dependency 'AFNetworking', '~> 3.1.0'
+      # req.dependency 'AFNetworking', '~> 3.1.0'
     end
 
     s.requires_arc = true
