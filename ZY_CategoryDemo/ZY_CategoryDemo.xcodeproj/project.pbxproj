@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25A543931F9500EC00AFAE98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A543891F9500EC00AFAE98 /* AppDelegate.m */; };
-		25A543941F9500EC00AFAE98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25A5438A1F9500EC00AFAE98 /* Assets.xcassets */; };
-		25A543951F9500EC00AFAE98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25A5438B1F9500EC00AFAE98 /* LaunchScreen.storyboard */; };
-		25A543961F9500EC00AFAE98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25A5438D1F9500EC00AFAE98 /* Main.storyboard */; };
-		25A543971F9500EC00AFAE98 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25A5438F1F9500EC00AFAE98 /* Info.plist */; };
-		25A543981F9500EC00AFAE98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A543901F9500EC00AFAE98 /* main.m */; };
-		25A543991F9500EC00AFAE98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A543921F9500EC00AFAE98 /* ViewController.m */; };
+		25A543A61F95082500AFAE98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A5439C1F95082500AFAE98 /* AppDelegate.m */; };
+		25A543A71F95082500AFAE98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25A5439D1F95082500AFAE98 /* Assets.xcassets */; };
+		25A543A81F95082500AFAE98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25A5439E1F95082500AFAE98 /* LaunchScreen.storyboard */; };
+		25A543A91F95082500AFAE98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25A543A01F95082500AFAE98 /* Main.storyboard */; };
+		25A543AA1F95082500AFAE98 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25A543A21F95082500AFAE98 /* Info.plist */; };
+		25A543AB1F95082500AFAE98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A543A31F95082500AFAE98 /* main.m */; };
+		25A543AC1F95082500AFAE98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A543A51F95082500AFAE98 /* ViewController.m */; };
 		261F20A9623B3EECAD367FE1 /* libPods-ZT_CategoryDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE44DE192676AEC4D2E31FD /* libPods-ZT_CategoryDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		255ECB3E1F909A050061D951 /* ZYCategoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYCategoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		25A543881F9500EC00AFAE98 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		25A543891F9500EC00AFAE98 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		25A5438A1F9500EC00AFAE98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		25A5438C1F9500EC00AFAE98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		25A5438E1F9500EC00AFAE98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		25A5438F1F9500EC00AFAE98 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		25A543901F9500EC00AFAE98 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		25A543911F9500EC00AFAE98 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		25A543921F9500EC00AFAE98 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		255ECB3E1F909A050061D951 /* ZY_CategoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZY_CategoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A5439B1F95082500AFAE98 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25A5439C1F95082500AFAE98 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25A5439D1F95082500AFAE98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25A5439F1F95082500AFAE98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25A543A11F95082500AFAE98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25A543A21F95082500AFAE98 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25A543A31F95082500AFAE98 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25A543A41F95082500AFAE98 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25A543A51F95082500AFAE98 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		36B97D1607E645B090BC4D29 /* Pods-ZT_CategoryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZT_CategoryDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZT_CategoryDemo/Pods-ZT_CategoryDemo.release.xcconfig"; sourceTree = "<group>"; };
 		BEE44DE192676AEC4D2E31FD /* libPods-ZT_CategoryDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZT_CategoryDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41C62FD9DB7B596E7FA8957 /* Pods-ZT_CategoryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZT_CategoryDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZT_CategoryDemo/Pods-ZT_CategoryDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		255ECB351F909A050061D951 = {
 			isa = PBXGroup;
 			children = (
-				25A543871F9500EC00AFAE98 /* ZYCategoryDemo */,
+				25A5439A1F95082500AFAE98 /* ZY_CategoryDemo */,
 				255ECB3F1F909A050061D951 /* Products */,
 				EB1D5EAA7B930932C21A2425 /* Pods */,
 				8D7F81DA1EBE29C4653B2B4E /* Frameworks */,
@@ -58,25 +58,25 @@
 		255ECB3F1F909A050061D951 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				255ECB3E1F909A050061D951 /* ZYCategoryDemo.app */,
+				255ECB3E1F909A050061D951 /* ZY_CategoryDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		25A543871F9500EC00AFAE98 /* ZYCategoryDemo */ = {
+		25A5439A1F95082500AFAE98 /* ZY_CategoryDemo */ = {
 			isa = PBXGroup;
 			children = (
-				25A543881F9500EC00AFAE98 /* AppDelegate.h */,
-				25A543891F9500EC00AFAE98 /* AppDelegate.m */,
-				25A5438A1F9500EC00AFAE98 /* Assets.xcassets */,
-				25A5438B1F9500EC00AFAE98 /* LaunchScreen.storyboard */,
-				25A5438D1F9500EC00AFAE98 /* Main.storyboard */,
-				25A5438F1F9500EC00AFAE98 /* Info.plist */,
-				25A543901F9500EC00AFAE98 /* main.m */,
-				25A543911F9500EC00AFAE98 /* ViewController.h */,
-				25A543921F9500EC00AFAE98 /* ViewController.m */,
+				25A5439B1F95082500AFAE98 /* AppDelegate.h */,
+				25A5439C1F95082500AFAE98 /* AppDelegate.m */,
+				25A5439D1F95082500AFAE98 /* Assets.xcassets */,
+				25A5439E1F95082500AFAE98 /* LaunchScreen.storyboard */,
+				25A543A01F95082500AFAE98 /* Main.storyboard */,
+				25A543A21F95082500AFAE98 /* Info.plist */,
+				25A543A31F95082500AFAE98 /* main.m */,
+				25A543A41F95082500AFAE98 /* ViewController.h */,
+				25A543A51F95082500AFAE98 /* ViewController.m */,
 			);
-			path = ZYCategoryDemo;
+			path = ZY_CategoryDemo;
 			sourceTree = "<group>";
 		};
 		8D7F81DA1EBE29C4653B2B4E /* Frameworks */ = {
@@ -99,9 +99,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		255ECB3D1F909A050061D951 /* ZYCategoryDemo */ = {
+		255ECB3D1F909A050061D951 /* ZY_CategoryDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 255ECB6A1F909A050061D951 /* Build configuration list for PBXNativeTarget "ZYCategoryDemo" */;
+			buildConfigurationList = 255ECB6A1F909A050061D951 /* Build configuration list for PBXNativeTarget "ZY_CategoryDemo" */;
 			buildPhases = (
 				D6B29FAEDE844818F5DACE34 /* [CP] Check Pods Manifest.lock */,
 				255ECB3A1F909A050061D951 /* Sources */,
@@ -114,9 +114,9 @@
 			);
 			dependencies = (
 			);
-			name = ZYCategoryDemo;
+			name = ZY_CategoryDemo;
 			productName = RemotePod;
-			productReference = 255ECB3E1F909A050061D951 /* ZYCategoryDemo.app */;
+			productReference = 255ECB3E1F909A050061D951 /* ZY_CategoryDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -134,7 +134,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 255ECB391F909A050061D951 /* Build configuration list for PBXProject "ZYCategoryDemo" */;
+			buildConfigurationList = 255ECB391F909A050061D951 /* Build configuration list for PBXProject "ZY_CategoryDemo" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -147,7 +147,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				255ECB3D1F909A050061D951 /* ZYCategoryDemo */,
+				255ECB3D1F909A050061D951 /* ZY_CategoryDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -157,10 +157,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25A543971F9500EC00AFAE98 /* Info.plist in Resources */,
-				25A543961F9500EC00AFAE98 /* Main.storyboard in Resources */,
-				25A543941F9500EC00AFAE98 /* Assets.xcassets in Resources */,
-				25A543951F9500EC00AFAE98 /* LaunchScreen.storyboard in Resources */,
+				25A543AA1F95082500AFAE98 /* Info.plist in Resources */,
+				25A543A91F95082500AFAE98 /* Main.storyboard in Resources */,
+				25A543A71F95082500AFAE98 /* Assets.xcassets in Resources */,
+				25A543A81F95082500AFAE98 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,27 +219,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25A543991F9500EC00AFAE98 /* ViewController.m in Sources */,
-				25A543981F9500EC00AFAE98 /* main.m in Sources */,
-				25A543931F9500EC00AFAE98 /* AppDelegate.m in Sources */,
+				25A543AC1F95082500AFAE98 /* ViewController.m in Sources */,
+				25A543AB1F95082500AFAE98 /* main.m in Sources */,
+				25A543A61F95082500AFAE98 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		25A5438B1F9500EC00AFAE98 /* LaunchScreen.storyboard */ = {
+		25A5439E1F95082500AFAE98 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				25A5438C1F9500EC00AFAE98 /* Base */,
+				25A5439F1F95082500AFAE98 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		25A5438D1F9500EC00AFAE98 /* Main.storyboard */ = {
+		25A543A01F95082500AFAE98 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				25A5438E1F9500EC00AFAE98 /* Base */,
+				25A543A11F95082500AFAE98 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -357,9 +357,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "$(SRCROOT)/ZYCategoryDemo/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ZY_CategoryDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jryzt.ZYCategoryDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jryzt.ZY_CategoryDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -371,9 +371,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "$(SRCROOT)/ZYCategoryDemo/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ZY_CategoryDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jryzt.ZYCategoryDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jryzt.ZY_CategoryDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -382,7 +382,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		255ECB391F909A050061D951 /* Build configuration list for PBXProject "ZYCategoryDemo" */ = {
+		255ECB391F909A050061D951 /* Build configuration list for PBXProject "ZY_CategoryDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				255ECB681F909A050061D951 /* Debug */,
@@ -391,7 +391,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		255ECB6A1F909A050061D951 /* Build configuration list for PBXNativeTarget "ZYCategoryDemo" */ = {
+		255ECB6A1F909A050061D951 /* Build configuration list for PBXNativeTarget "ZY_CategoryDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				255ECB6B1F909A050061D951 /* Debug */,
